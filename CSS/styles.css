@@ -62,7 +62,7 @@ header a:hover{
   min-height: 400px;
   background:url('../CSS/../Images/wp6539481-charminar-wallpapers.jpg') no-repeat 0 -400px;
   text-align: center;
-  color: #ffffff;
+  color:white;
 }
 #sec h1{
   margin-top: 100px;
@@ -71,5 +71,17 @@ header a:hover{
 }
 #sec p{
   font-size: 20px;
+}
+#boxes{
+  margin-top: 20px;
+}
+#boxes .box{
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding:10px;
+}
+#boxes .box img{
+  width:90px;
 }
 
