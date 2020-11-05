@@ -4,8 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bookings</title>
+    <link rel="stylesheet" href="CSS/styles.css">
 </head>
 <body>
+    <header>
+        <div class="container"> 
+            <div id="logo">
+                <h1 class="">Welcome to Hyderabad</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="Booking.html">Booking</a></li>
+                    <li><a href="#">Tourist Places</a></li>
+                    <li><a href="#">Amusement Parks</a></li>
+                    <li><a href="reviews-feedback.html">Reviews&feedback</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="book">
+        <div class="container">
+            <form action="" class="form">
+                <div class="input-group">
+                    <label for="destination" class="input-label">Destination</label>
+                    <input type="text" class="input" id="destination">
+                </div>
+                <div class="input-group">
+                    <label for="Check-in" class="input-label">Check-in</label>
+                    <input type="date" class="input" id="Check-in">
+                </div>
+                <div class="input-group">
+                    <label for="Check-out" class="input-label">Check-out</label>
+                    <input type="date" class="input" id="Check-out">
+                </div>
+                <div class="input-group">
+                    <label for="Adults" class="input-label">Adults</label>
+                    <select class="options" id="Adults">
+                        <option value="0">0</option>
+                        <option value="0">1</option>
+                        <option value="0">2</option>
+                        <option value="0">3</option>
+                        <option value="0">4</option>
+                        <option value="0">5</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label for="Children" class="input-label">Children</label>
+                    <select class="options" id="Children">
+                        <option value="0">0</option>
+                        <option value="0">1</option>
+                        <option value="0">2</option>
+                        <option value="0">3</option>
+                        <option value="0">4</option>
+                        <option value="0">5</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn-orange">submit
+                    <span class="dots"><i class="btn-search"></i></span>
+
+                </button>
+            </form>
+        </div>
+    </section>
     
 </body>
 </html>
