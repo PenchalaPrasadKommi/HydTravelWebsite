@@ -86,3 +86,38 @@ footer{
 .center {
   text-align: center;
  }
+/*booking styles*/
+.book{
+  background-color: lightsalmon;
+
+}
+.input-group{
+  margin-bottom: 1.5rem;
+}
+.input-label{
+  display: block;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  color:white;
+  font-weight: bold;
+  justify-content: space-around;
+}
+.input, .options{
+  border: none;
+  width:90%;
+  min-height: 2em;
+  padding:1em;
+  font-weight: bold;
+  color: #a5a5a5;
+  letter-spacing: 2px;
+  font-family: "open Sans", sans-serif;
+  resize:none;
+}
+.btn-orange{
+  background-color: lightseagreen;
+  margin-bottom: 1.5em;
+  width:10%
+}
+.btn-orange:hover{
+  background-color: darkcyan;
+}
