@@ -88,7 +88,7 @@ footer{
  }
 /*booking styles*/
 .book{
-  background-image: var(--gradient-color);
+  background-color: lightsalmon;
 
 }
 .input-group{
@@ -100,13 +100,13 @@ footer{
   text-transform: uppercase;
   color:white;
   font-weight: bold;
+  justify-content: space-around;
 }
 .input, .options{
-  outline: none;
   border: none;
-  width:100%;
-  min-height: 4rem;
-  padding:1rem;
+  width:90%;
+  min-height: 2em;
+  padding:1em;
   font-weight: bold;
   color: #a5a5a5;
   letter-spacing: 2px;
@@ -114,8 +114,10 @@ footer{
   resize:none;
 }
 .btn-orange{
-  background-color: var(--orange-solid);
+  background-color: lightseagreen;
+  margin-bottom: 1.5em;
+  width:10%
 }
 .btn-orange:hover{
-  background-color: var(--orange-light);
+  background-color: darkcyan;
 }
