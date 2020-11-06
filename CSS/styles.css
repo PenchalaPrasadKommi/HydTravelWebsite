@@ -84,7 +84,7 @@ footer{
   text-align: center;
 }
 .center {
-  text-align: center;
+  text-align: center
  }
 /*booking styles*/
 .book{
@@ -116,8 +116,13 @@ footer{
 .btn-orange{
   background-color: lightseagreen;
   margin-bottom: 1.5em;
+  text-decoration: none;
   width:10%
 }
 .btn-orange:hover{
   background-color: darkcyan;
+}
+#grid-item .checked {
+  color:orange
+
 }
