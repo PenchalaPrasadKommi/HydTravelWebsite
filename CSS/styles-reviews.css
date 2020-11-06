@@ -50,6 +50,7 @@ header a:hover{
   }
 .center {
     text-align: center;
+    text-decoration-color: blue;
    }
 footer{
     padding:20px;
