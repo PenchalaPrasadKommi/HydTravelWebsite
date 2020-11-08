@@ -5,7 +5,34 @@ body {
     font-size: 20px;
     line-height: 1.5;
  }
-
+header{
+    background: #35424a;
+    color:white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: orangered 3px solid;
+ }
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+ }
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+ }
+header #logo{
+    float: left;
+  }
+header #logo h1{
+    margin:0;
+  }
+header nav{
+    float:right;
+    margin-top: 10px; 
+ }  
 h1{
     text-align: center;
     max-width:100%;
@@ -20,12 +47,19 @@ img{
     margin-right: auto;
     width: 50%
  }
+header a:hover{
+    color:#cccccc;
+    font-size: bold;
+ }
 footer{
     padding: 20px;
 
     color:white;
     background-color: orangered;
     text-align: center;
+ }
+ .center {
+    text-align: center
  }
 
  
