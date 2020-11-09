@@ -113,16 +113,37 @@ footer{
   font-family: "open Sans", sans-serif;
   resize:none;
 }
-.btn-orange{
+.btn-orange, .btn-directions{
   background-color: lightseagreen;
-  margin-bottom: 1.5em;
+  margin-bottom: 1.5rem;
   text-decoration: none;
-  width:10%
+  width:20%;
 }
 .btn-orange:hover{
   background-color: darkcyan;
 }
+.btn-directions:hover{
+  background-color: darkcyan;
+}
 #grid-item .checked {
   color:orange
-
+}
+.heading{
+  display: block;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+.sub-heading{
+  font-size: 1.7rem;
+  font-family: 'courgette',cursive;
+  font-weight: 300;
+  color: #a5a5a5;
+  text-align: center;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+  grid-gap: 2.5rem;
+  text-align: center;
 }
