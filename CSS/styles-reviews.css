@@ -1,63 +1,131 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size:15px;
-    line-height: 1.5;
-    padding: 0;
-    margin:0;
-    background-color: lightgray;
-  }
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:15px;
+  line-height: 1.5;
+  padding: 0;
+  margin:0;
+  background-color: lightgray;
+}
 ul{
-    margin: 0;
-    padding: 0;
-  }
+  margin: 0;
+  padding: 0;
+}
 .container{
-    width:80%;
-    margin:auto;
-    overflow: hidden;
-  }
+  width:80%;
+  margin:auto;
+  overflow: hidden;
+}
 header{
-    background: #35424a;
-    color:white;
-    padding-top: 30px;
-    min-height: 70px;
-    border-bottom: orangered 3px solid;
-  }
+  background: #35424a;
+  color:white;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: orangered 3px solid;
+}
 header a{
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 16px;
-  }
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
 header li{
-    float: left;
-    display: inline;
-    padding: 0 20px 0 20px;
-  }
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
 header #logo{
-    float: left;
-  }
+  float: left;
+}
 header #logo h1{
-    margin:0;
-  }
+  margin:0;
+}
 header nav{
-    float:right;
-    margin-top: 10px;
-  
-  }
+  float:right;
+  margin-top: 10px;
+
+}
 header a:hover{
-    color:#cccccc;
-    font-size: bold;
-  }
+  color:#cccccc;
+  font-size: bold;
+}
 .center {
-    text-align: center;
-    text-decoration-color: blue;
-   }
+  text-align: center;
+  text-decoration-color: blue;
+ }
 footer{
-    padding:20px;
-    margin-top: 20px;
-    color:white;
-    background-color: #e8491d;
-    text-align: center;
+  padding:20px;
+  margin-top: 20px;
+  color:white;
+  background-color: #e8491d;
+  text-align: center;
+}
+.review-section{
+  margin: auto;
+  padding: 0 1rem;
+  max-width: 1100px;
+  text-align: center;
+}
+
+.title{
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: rgb(50, 50, 50);
+  margin-bottom: .5rem;
+}
+.notes{
+  font-size: 1.1rem;
+  color: rgb(150, 150, 150);
+  font-style: italic;
+    color: red;
+  font
+
+}
+
+.reviews{
+  margin: 2rem auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.review{
+  margin: 0 1rem;
+  min-width: 300px;
+  flex: 1;
+}
+
+.head-review{
+  margin: 1.75rem auto;
+  width: 150px;
+  height: 150px;
+}
+img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, .25);
+}
+
+.review-body{
+  background-color: rgb(238, 238, 238);
+  padding: 2.5rem;
+  box-shadow: 2px 2px 10px 3px rgb(225, 225, 225);
+}
+.name-review{
+  font-size: 1.5rem;
+  color: rgb(50, 50, 50);
+  margin-bottom: .25rem;
+}
+.place-review{
+  color: red;
+  font-style: italic;
+.desc-review{
+  line-height: 1.5rem;
+  letter-spacing: 1px;
+  color: rgb(150, 150, 150);
+}
+
+@media (max-width: 678px){
+  .review{
+    margin-top: 1.5rem;
   }
-  
-  
+}
