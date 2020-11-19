@@ -117,7 +117,9 @@ footer{
   background-color: lightseagreen;
   margin-bottom: 1.5rem;
   text-decoration: none;
-  width:20%;
+  margin-left: 40%;
+  width:10%;
+
 }
 .btn-orange:hover{
   background-color: darkcyan;
