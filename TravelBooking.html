@@ -6,6 +6,56 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>Registration Form</h1>
+    <form method="GET" class="form" action="#">
+        <p>
+            <label for="name" class="inp">First Name</label>
+            <input type="text" id="name" name="name" class="input-type" placeholder="First Name" required>
+        </p> 
+        <p>
+            <label for="name" class="inp">Last Name</label>
+            <input type="text" id="name" name="name" class="input-type" placeholder="Last Name" required>
+        </p>
+        <label for="email" class="inp">Email  address</label>
+        <input type="email" id="email" class="input-type" placeholder="Enter your Email" pattern=".+@gmail.com" size="30" required><br><br>
+        <label for="number" class="inp" >Mobile Number</label>
+        <input type="tel" id="number" class="input-type" placeholder="Enter Mobile Number"><br><br>
+        <label for="dob" class="inp">Date of Birth</label>
+        <input type="date" class="input-type" id="dob" ><br><br>
+        <label>Gender :</label>
+        <input type="radio"  id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" class="gender" id="female" name="gender" value="male">
+        <label for="female">Female</label>
+        <input type="radio" class="gender" id="other" name="gender" value="male">
+        <label for="other">other</label><br><br>
+        <div class="input-group">
+            <label for="Adults" class="input-label">Adults</label>
+            <select class="options" id="Adults">
+                <option value="0">0</option>
+                <option value="0">1</option>
+                <option value="0">2</option>
+                <option value="0">3</option>
+                <option value="0">4</option>
+                <option value="0">5</option>
+            </select>
+        </div><br>
+        <div class="input-group">
+            <label for="Children" class="input-label">Children</label>
+            <select class="options" id="Children">
+                <option value="0">0</option>
+                <option value="0">1</option>
+                <option value="0">2</option>
+                <option value="0">3</option>
+                <option value="0">4</option>
+                <option value="0">5</option>
+            </select>
+        </div>
+        <p>
+            <label for="img">Upload Test Results :</label>
+            <input type="file" name="img" id="img" accept="image/*">
+        </p>
+        <input type="submit" class="sub" onclick="alert('Confirm?')">
     
 </body>
 </html>
