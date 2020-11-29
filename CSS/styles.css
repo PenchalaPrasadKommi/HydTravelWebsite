@@ -1,7 +1,5 @@
+/* for desktop view*/
 @media only screen and (min-width:769px){
-  #container{
-      width: 80%;
-  }
 body{
   font-family: Arial, Helvetica, sans-serif;
   font-size:15px;
@@ -90,6 +88,7 @@ footer{
 .center {
   text-align: center
  }
+}
 /*booking styles*/
 .book{
   background-color: lightsalmon;
