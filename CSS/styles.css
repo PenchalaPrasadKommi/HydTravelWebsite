@@ -10,6 +10,7 @@ body{
 ul{
   margin: 0;
   padding: 0;
+  justify-content: space-around;
 }
 .container{
   width:80%;
@@ -52,10 +53,9 @@ header .highlight{
 }
 header a:hover{
   color:#cccccc;
-  font-size: bold;
 }
 .fa {
-  padding: 20px;
+  padding: 10px;
   font-size: 30px;
   width: 50px;
   text-align: center;
@@ -119,8 +119,8 @@ header a:hover{
   width:90px;
 }
 footer{
-  padding:20px;
-  margin-top: 20px;
+  padding:10px;
+  margin-top: 10px;
   color:white;
   background-color: #e8491d;
   text-align: center;
