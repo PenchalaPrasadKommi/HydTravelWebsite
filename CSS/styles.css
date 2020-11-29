@@ -91,7 +91,7 @@ footer{
 }
 /*booking styles*/
 .book{
-  background-color: lightsalmon;
+  background-color: lightgray;
 
 }
 .input-group{
@@ -101,14 +101,13 @@ footer{
   display: block;
   font-size: 1.3rem;
   text-transform: uppercase;
-  color:white;
+  color:black;
   font-weight: bold;
   justify-content: space-around;
 }
 .input, .options{
-  border: none;
-  width:90%;
-  min-height: 2em;
+  width:80%;
+  min-height: 3rem;
   padding:1em;
   font-weight: bold;
   color: #a5a5a5;
@@ -116,18 +115,13 @@ footer{
   font-family: "open Sans", sans-serif;
   resize:none;
 }
-.btn-orange, .btn-directions{
+.btn-orange{
   background-color: lightseagreen;
   margin-bottom: 1.5rem;
   text-decoration: none;
-  margin-left: 40%;
-  width:10%;
 
 }
 .btn-orange:hover{
-  background-color: darkcyan;
-}
-.btn-directions:hover{
   background-color: darkcyan;
 }
 #grid-item .checked {
@@ -139,6 +133,7 @@ footer{
 }
 .heading{
   display: block;
+  font-weight: bold;
   font-size: 2rem;
   text-transform: uppercase;
 }
