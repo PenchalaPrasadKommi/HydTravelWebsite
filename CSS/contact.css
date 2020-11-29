@@ -98,3 +98,55 @@ tr td:first-child{
 tr td{
     padding-top: 30px;
 }
+
+header{
+    background: #35424a;
+    color:white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-height: 70px;
+    border-bottom: orangered 3px solid;
+  }
+  header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+  }
+  header #logo{
+    float: left;
+  }
+  header #logo h1{
+    margin:0;
+  }
+  header nav{
+    float:right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  header .highlight{
+    color:#e8491d;
+    font-weight: bold;
+  }
+  header a:hover{
+    color:#cccccc;
+    font-size: bold;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  /*  hover effect  */
+  .fa:hover {
+    opacity: 0.7;
+  }
