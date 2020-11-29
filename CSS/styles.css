@@ -45,12 +45,48 @@ header nav{
   float:right;
   margin-top: 10px;
   margin-bottom: 10px;
-
+}
+header .highlight{
+  color:#e8491d;
+  font-weight: bold;
 }
 header a:hover{
   color:#cccccc;
   font-size: bold;
 }
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/*  hover effect  */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/*  specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+/* instagram */
+.fa-instagram {
+  background: red;
+  color: white;
+}
+
 #sec{
   width: 100%;
   height: 60vh;
@@ -77,7 +113,7 @@ header a:hover{
   float: left;
   text-align: center;
   width: 30%;
-  padding:10px;
+  padding:15px;
 }
 #boxes .box img{
   width:90px;
@@ -129,6 +165,8 @@ footer{
   text-decoration: none;
   margin-left: 1%;
   margin-right: 1%;
+  border-radius: 30px;
+  width: 100px;
 
 }
 .btn-orange:hover{
