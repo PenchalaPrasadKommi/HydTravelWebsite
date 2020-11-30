@@ -66,12 +66,12 @@ h1{
     max-width:100%;
     color:whitesmoke;
 }
-h2{
-    color:olive;
-    text-align:center;
-}
-.head{
+
+
+head{
     margin-top:0.5rem;
+    color:darkcyan;
+    text-align:center;
 }
 
 img{
@@ -98,6 +98,7 @@ img{
     background-color:lawngreen;
 
 }
+
 
 
 
