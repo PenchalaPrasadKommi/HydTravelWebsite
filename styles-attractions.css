@@ -1,0 +1,161 @@
+body {
+    background-color:lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    line-height:1.5;
+    padding:0;
+    margin:0;
+}
+ul{
+    margin:0;
+    padding:0;
+}    
+.container{
+    width:80%;
+    margin:auto;
+    overflow: hidden;
+}
+.gallery{
+    margin:5px;
+    float:left;
+    width:390px;
+    border:1px solid white;
+}
+.gallery img{
+    width:100%;
+    height:50vh;
+}
+.desc{
+    padding:20px;
+    text-align:center;
+}
+    
+header{
+    background: #35424a;
+    color:white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: orangered 3px solid;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #logo{
+    float: left;
+}
+header #logo h1{
+    margin:0;
+}
+header nav{
+    float:right;
+    margin-top: 10px; 
+}
+header a:hover{
+    color:#cccccc;
+    font-size: bold;
+h1{
+    text-align: ;
+    max-width:100%;
+    color:whitesmoke;
+}
+h2{
+    color:olive;
+    text-align:center;
+}
+.head{
+    margin-top:0.5rem;
+}
+
+img{
+    max-width: 30%;
+    margin:1%;
+    border: single 0.0rem rgb(155, 121, 121);
+    width:100%;
+}
+
+/*.btn{
+    float:right;
+    background: #1c00b5;
+    width:100px;
+    border:none;
+    outline:none;
+    color:#FFFFFF;
+    height:30px;
+    border-radius:30px;
+    margin-top:18px;
+    box-shadow:0px 5px 15px 0px rgba(28,0,181,0.3);
+}*/
+
+.btn{
+    background-color:lawngreen;
+
+}
+
+
+
+    
+
+
+      
+
+
+header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top:0.2rem;
+    text-align:center;
+}
+
+main{
+   display:block;
+   margin-top:0.5rem;
+   padding:1rem;
+   border-radius:1rem;
+   background-color:#FFFFFF;
+   box-shadow:0.5rem 0.5rem 0.5rem #404040;
+}
+
+footer{
+    padding: 20px;
+    margin-top:10px;
+    color:white;
+    background-color: orangered;
+    text-align: center;
+}
+.center {
+    text-align: center;
+}
+
+@media only screen and (min-width: 481px){
+    /* tablet layout */
+    img{
+           width:45%;
+    }
+}
+
+@media only screen and (min-width:769px){
+    /* desktop layout */
+    img{
+           widows: 50%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+}
+
+
+ 
+
+
+
