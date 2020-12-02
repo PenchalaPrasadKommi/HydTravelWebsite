@@ -61,8 +61,9 @@ header nav{
 header a:hover{
     color:#cccccc;
     font-size: bold;
+}
 h1{
-    text-align: ;
+    text-align:center;
     max-width:100%;
     color:whitesmoke;
 }
