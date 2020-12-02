@@ -1,8 +1,8 @@
 body{
   font-family: Arial, Helvetica, sans-serif;
-  font-size:15px;
+  font-size:20px;
   line-height: 1.5;
-  padding: 0;
+  padding-left:10px;
   margin:0;
   background-color: lightgray;
 }
@@ -39,12 +39,13 @@ ul.topnav li.right {float: right;}
     }
 }
 footer{
-      padding-top:10px;
+      padding-top:10;
       margin-top: 20px;
       color:white;
-      background-color: #e8491d;
+      background-color: red;
       text-align: center;
- }
+}
+
   
 .fa {
     padding: 10px;
@@ -75,11 +76,8 @@ footer{
     
 
  
-.container{
-    width:80%;
-    margin:auto;
-    overflow: hidden;
-}
+
+
 .gallery{
     margin:5px;
     float:left;
@@ -124,7 +122,7 @@ img{
 
 .grid .btn{
     float:right;
-    background:orangered;
+    background:black;
     width:100px;
     border:none;
     outline:none;
@@ -136,7 +134,7 @@ img{
 }
 
 .grid .btn{
-    background-color:orangered;
+    background-color:black;
     float:right;
     
 
@@ -171,7 +169,7 @@ main{
 @media only screen and (min-width:769px){
     /* desktop layout */
     img{
-           widows: 50%;
+           width: 50%;
     }
 }
 
