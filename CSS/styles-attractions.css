@@ -67,11 +67,12 @@ h1{
     max-width:100%;
     color:whitesmoke;
 }
+
 h2{
     text-align:center;
     color:olive;
-}
 
+}
 
 head{
     margin-top:0.5rem;
@@ -80,15 +81,15 @@ head{
 }
 
 img{
-    max-width: 30%;
-    margin:1%;
+    max-width: 100%;
+    margin:0%;
     border: single 0.0rem rgb(155, 121, 121);
     width:100%;
 }
 
-/*.btn{
+.grid .btn{
     float:right;
-    background: #1c00b5;
+    background:orangered;
     width:100px;
     border:none;
     outline:none;
@@ -99,10 +100,13 @@ img{
     box-shadow:0px 5px 15px 0px rgba(28,0,181,0.3);
 }*/
 
-.btn{
-    background-color:lawngreen;
+.grid .btn{
+    background-color:orangered;
+    float:right;
+    
 
 }
+
 
 
 
@@ -132,7 +136,7 @@ footer{
     padding: 20px;
     margin-top:10px;
     color:white;
-    background-color: orangered;
+    background-color;
     text-align: center;
 }
 .center {
