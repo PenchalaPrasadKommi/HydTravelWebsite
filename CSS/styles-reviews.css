@@ -6,6 +6,7 @@ body{
   padding: 0;
   margin:0;
   background-color: lightgray;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 ul.topnav {
@@ -297,6 +298,20 @@ input[type=submit]:hover {
     border-radius: 1rem;
     text-align: justify;
   }
+}
+
+/* added this media query as the image allignment and review headings aren't looking aligned around 520px*/
+
+@media screen and (max-width: 520px){
+  .head-review img {
+    float: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+  }
+
 }
 
 footer{
