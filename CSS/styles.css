@@ -202,7 +202,7 @@ body{
 }
 .grid{
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+  grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
   grid-gap: 2.5rem;
   
 }
@@ -229,4 +229,8 @@ body{
 .hotel-price{
   font-size: 1rem;
 }
+
+
+
+
 
