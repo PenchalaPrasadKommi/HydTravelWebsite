@@ -63,6 +63,10 @@ h2{
     color:olive;
 
 }
+
+container .p{
+  margin:5%;
+}
 main{
     display:block;
     margin-top:0.5rem;
@@ -83,6 +87,7 @@ head{
     float:left;
     width:390px;
     border:1px solid white;
+    margin-left: 1.5%;
 }
 .gallery img{
     width:100%;
@@ -94,13 +99,12 @@ head{
 } 
 .btn{
     float: right;
-    background-color: lightseagreen;
-    margin-bottom: 1.5rem;
+    background-color:lightcoral;
     text-decoration: none;
     margin-left: 1%;
     margin-right: 1%;
     border-radius: 30px;
-    width: 100px;
+    width: 80px;
   
   }
 .btn:hover{
@@ -139,4 +143,26 @@ footer{
 .footer-notes{
   margin: 0;
 }
+
+@media only screen and (min-width: 481px){
+  /* tablet layout */
+  img{
+         width:45%;
+  }
+}
+
+@media only screen and (min-width:769px){
+  /* desktop layout */
+  img{
+         width: 50%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
       
