@@ -50,6 +50,15 @@ ul.topnav {
       background-color: #e8491d;
       text-align: center;
   }
+
+  .footer-notes{
+    padding-right: 20px;
+  }
+
+  table{
+    margin-left: auto;
+    margin-right: auto;
+  }
   
       .fa {
         padding: 10px;

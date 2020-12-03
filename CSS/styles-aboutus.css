@@ -322,6 +322,15 @@ footer{
   text-align: center;
 }
 
+.footer-notes{
+  padding-right: 20px;
+}
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+}
+
   /* footer part*/
 .fa {
 padding: 10px;
