@@ -169,7 +169,7 @@ body{
   resize:none;
 }
 .btn-orange{
-  background-color: lightseagreen;
+  background-color: orangered;
   margin-bottom: 1.5rem;
   text-decoration: none;
   margin-left: 1%;
@@ -182,7 +182,7 @@ body{
   background-color: darkcyan;
 }
 #grid-item .checked {
-  color:orange
+  color:rgb(53, 49, 43)
 }
 .head-hotel{
   text-align: center;
