@@ -100,22 +100,24 @@ head{
 } 
 .btn{
     float: right;
-    background-color:lightcoral;
+    background-color:red;
     text-decoration: none;
     margin-left: 1%;
     margin-right: 1%;
     border-radius: 30px;
     width: 80px;
+    color:white;
   
   }
 .btn:hover{
-    background-color: darkcyan;
+    background-color:gold;
+    color:black;
   }
 footer{
     padding-top:10;
     margin-top: 20px;
     color:white;
-    background-color: red;
+    background-color: orangered;
     text-align: center;
 } 
 .fa {
