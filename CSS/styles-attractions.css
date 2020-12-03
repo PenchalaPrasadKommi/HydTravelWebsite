@@ -100,16 +100,18 @@ head{
 } 
 .btn{
     float: right;
-    background-color:orangered;
+    background-color:red;
     text-decoration: none;
     margin-left: 1%;
     margin-right: 1%;
     border-radius: 30px;
     width: 80px;
+    color:white;
   
   }
 .btn:hover{
-    background-color: darkcyan;
+    background-color:gold;
+    color:black;
   }
 footer{
     padding-top:10;
