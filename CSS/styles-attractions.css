@@ -52,6 +52,13 @@ ul.topnav li.right {
     background-color: lightgray;
     overflow: hidden;
 }
+
+.grid{
+  display: inline-grid;
+  grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+  grid-gap: 2.5rem;  
+}
+
 h1{
     text-align:center;
     max-width:100%;
@@ -67,15 +74,16 @@ h2{
 .text{
   margin-left:1%;
   margin-right:1%;
+  padding-bottom: 20px;
 }
-main{
+/* main{
     display:block;
     margin-top:0.5rem;
     padding:1rem;
     border-radius:1rem;
     background-color:#FFFFFF;
     box-shadow:0.5rem 0.5rem 0.5rem #404040;
- }
+ } */
 
 head{
     margin-top:0.5rem;
@@ -84,23 +92,29 @@ head{
 }
 
 .gallery{
-    margin:5px;
-    float:left;
-    width:390px;
-    border:1px solid white;
-    margin-left: 1.6%;
+    border:2px solid #35424a;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    
 }
+
+
 .gallery img{
-    width:100%;
-    height:50vh;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
 }
 .desc{
+    padding-top: 20px;
     padding:20px;
     
 } 
 .btn{
     float: right;
-    background-color:red;
+    background-color: orangered;
     text-decoration: none;
     margin-left: 1%;
     margin-right: 1%;
@@ -155,25 +169,24 @@ table{
   margin: 0;
 }
 
-@media only screen and (min-width: 481px){
+/* @media only screen and (min-width: 481px){
   /* tablet layout */
-  img{
+  /* img{
          width:45%;
   }
-}
+} */
 
-@media only screen and (min-width:769px){
+/* @media only screen and (min-width:769px){
   /* desktop layout */
-  img{
+  /* img{
          width: 50%;
-  }
-}
+  } */
+/* } */
 
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) { */
   /* For mobile phones: */
-  [class*="col-"] {
+  /* [class*="col-"] {
     width: 100%;
   }
-}
 
       
