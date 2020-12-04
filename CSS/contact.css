@@ -1,14 +1,8 @@
-body{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size:15px;
-  line-height: 1.5;
-  padding: 0;
-  margin:0;
-  background-color: lightgray;
-}
+
 ul.topnav {
     list-style-type: none;
     margin: 0;
+    
     padding: 20px;
     overflow: hidden;
     background-color: #35424a;
@@ -28,6 +22,8 @@ ul.topnav {
   ul.topnav li a:hover{color: #111;}
   
   ul.topnav li.right {float: right;}
+
+
   @media screen and (max-width: 652px) {
     ul.topnav li.right, 
     ul.topnav li {float: none;}
@@ -97,6 +93,7 @@ ul.topnav {
 body{
     background: lightgrey;
     font-size: 16px;
+    line-height: 1.5;
     font-family: 'Roboto', sans-serif;
 }
 
