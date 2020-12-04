@@ -1,8 +1,20 @@
-
-ul.topnav {
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:15px;
+  line-height: 1.5;
+  padding: 0;
+  margin:0;
+  background-color: lightgray;
+}
+  
+  ul.topnav {
     list-style-type: none;
     margin: 0;
-    
     padding: 20px;
     overflow: hidden;
     background-color: #35424a;
@@ -22,8 +34,8 @@ ul.topnav {
   ul.topnav li a:hover{color: #111;}
   
   ul.topnav li.right {float: right;}
-
-
+  
+  
   @media screen and (max-width: 652px) {
     ul.topnav li.right, 
     ul.topnav li {float: none;}
@@ -35,18 +47,13 @@ ul.topnav {
       }
     }
 
-
-   footer{
-      padding-top:30px;
-      margin-top: 90px;
-      margin-left: -150px;
-      margin-right: -150px;
-      margin-bottom: -150px;
+    footer{
+      padding-top:10px;
+      margin-top: 20px;
       color:white;
       background-color: #e8491d;
       text-align: center;
   }
-
   .footer-notes{
     padding-right: 20px;
   }
@@ -56,131 +63,125 @@ ul.topnav {
     margin-right: auto;
   }
   
-      .fa {
-        padding: 10px;
-        font-size: 30px;
-        width: 50px;
-        text-align: center;
-        text-decoration: none;
-        border-radius: 50%;
-      }
-      
-      .fa:hover {
-        opacity: 0.7;
-      }
-      
-      .fa-facebook {
-          color: white;
-        }
-        
-        .fa-twitter {
-          color: white;
-        }
-        .fa-instagram {
-          color: white;
-        }
-        .footer-notes{
-            margin: 0;
-        }
+      /* footer part*/
+  .fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  /*  hover effect  */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Facebook */
+  .fa-facebook {
+      color: white;
+    }
     
+    /* Twitter */
+    .fa-twitter {
+      color: white;
+    }
+    /* instagram */
+    .fa-instagram {
+      color: white;
+    }
+    .footer-notes{
+        margin: 0;
+    }
 
 
-*{
-    margin: 0;
-    padding: 0;
-}
-
-body{
-    background: lightgrey;
-    font-size: 16px;
-    line-height: 1.5;
-    font-family: 'Roboto', sans-serif;
-}
 
 .container{
-    width: 80%;
-    margin: 50px auto;
+  width: 90%;
+  overflow: hidden;
+  margin: 50px auto;
 }
 
 .contact-box{
-    background: #ffffff;
-    display: flex;     
+  background: #ffffff;
+  display: grid;     
 }
 
 .contact-left{
-    flex-basis: 80%;
-    padding: 50px;
+  flex-basis: 80%;
+  padding: 50px;
 }
 
 .contact-right{
-    flex-basis: 40%;
-    padding: 40px;
-    background: #e8491d;
-    color: white;
+  flex-basis: 30%;
+  padding: 40px;
+  background: #e8491d;
+  color: white;
 }
+
 h1{
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 p{
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 .input-row{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .input-row .input-group{
-    flex-basis: 45%;
+  flex-basis: 45%;
 }
 
 input{
-    width: 100%;
-    border: none;
-    border-bottom: 1px solid #cccccc;
-    outline:none;
-    padding-bottom: 5px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #cccccc;
+  outline:none;
+  padding-bottom: 5px;
 }
 
 textarea{
-    width: 100%;
-    border: 1px solid #cccccc;
-    outline: none;
-    padding: 10px;
-    box-sizing: border-box;
+  width: 100%;
+  border: 1px solid #cccccc;
+  outline: none;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 label{
-    margin-bottom: 6px;
-    display: block;
-    color:  #e8491d;
+  margin-bottom: 6px;
+  display: block;
+  color:  #e8491d;
 }
 
 button{
-    background:  #e8491d;
-    width: 100px;
-    border: none;
-    outline: none;
-    color: #ffffff;
-    height: 35px;
-    border-radius: 35px;
-    margin-top: 20px;
-    box-shadow: 0px 5px 15px 0px rgba(28,0,181,0.3);
+  background:  #e8491d;
+  width: 100px;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  height: 35px;
+  border-radius: 35px;
+  margin-top: 20px;
+  box-shadow: 0px 5px 15px 0px rgba(28,0,181,0.3);
 }
 
 .contact-left h3{
-    color:  #e8491d;
-    font-weight: 600;
-    margin-bottom: 30px;
+  color:  #e8491d;
+  font-weight: 600;
+  margin-bottom: 30px;
 }
 
 
 tr td:first-child{
-    padding-right: 25px;
+  padding-right: 25px;
 }
 
 tr td{
-    padding-top: 30px;
+  padding-top: 30px;
 }
-
