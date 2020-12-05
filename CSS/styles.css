@@ -237,6 +237,18 @@ body{
   font-size: 1rem;
 }
 
+/* ---------site map-------------- */
+
+.sitemap{
+  text-align: left;
+
+}
+
+.container-sitemap a{
+  text-decoration: none;
+}
+
+
 
 
 
